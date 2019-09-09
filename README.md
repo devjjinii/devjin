@@ -20,3 +20,15 @@ public class Application {
 추가로 @EnableZuulProxy를 명시해주면 애플리케이션이 Netflix Zuul이 내장된 API Gateway이자 Reverse Proxy로 변신한다.
 </code>
 </pre>
+
+#### NEXUS <br>
+-> maven (pom.xml)
+~~~
+    <repositories>
+		<repository>
+			<id>internal-repo</id>
+			<name>internal-nexus</name>
+			<url>http://주소:port/nexus/content/groups/public/</url>
+		</repository>
+    </repositories>
+~~~
