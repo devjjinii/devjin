@@ -5,6 +5,5 @@
 * core
 * front	
 * server
-* todo
 * 기타
 
