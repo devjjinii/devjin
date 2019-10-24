@@ -31,5 +31,4 @@
 ![14](https://user-images.githubusercontent.com/53853730/65102470-219b5e00-da06-11e9-9d29-3c3461433b10.JPG) 
 
 ##### db 접속 <br>
-![15](https://user-images.githubusercontent.com/53853730/65103378-0a11a480-da09-11e9-9c54-0c22f3cb15ca.JPG)
- 
+![15](https://user-images.githubusercontent.com/53853730/65103378-0a11a480-da09-11e9-9c54-0c22f3cb15ca.JPG) 
