@@ -2,6 +2,7 @@
 
 #### 정독하고 정리하기 : [엘라스틱서치 실무 가이드](https://wikibook.co.kr/practical-elasticsearch/)
 
-
-프로젝트와 프로젝트사이 공백기간에 회사 내재화를 위한 프로젝트를 진행하였는데, <br>
-슬..슬 기억이 날아가는 것 같아서 그 때의 지식을 정리해본다.
+* 20/01/14(화) <br>
+프로젝트 할때만 해도 7.0이었는데 , 공식사이트를 오랜만에 들어가보니 현재버전이 7.5이다. <br>
+ 
+https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking-changes-7.0.html#breaking_70_restclient_changes
