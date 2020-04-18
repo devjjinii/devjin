@@ -20,6 +20,10 @@
 * smart component -> have state // dumb component -> have not state
 ![캡처](https://user-images.githubusercontent.com/53853730/79625023-f7a74700-8160-11ea-836a-036c30dd7036.JPG) <br>
 * 차이점 : 밑의 코드는 그냥 return 을 하기 위해 존재하고 state를 가지고 있지 않다. , 라이프사이클이 없고 render가 없다.
-* 13강까지.
+* api : componentDidMount() { fetch(url) }  -> console.log () --> promise
+* promise = asynchronous
+* fetch() .then(response => console.log(response)) .catch(err => console.log(err))
+* await, async <br> 
+![image](https://user-images.githubusercontent.com/53853730/79629432-bcb70a80-8184-11ea-98d1-9220cd9a4196.png) <br>
 
 
