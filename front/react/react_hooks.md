@@ -29,5 +29,12 @@ const onSubMenuClicked = (type) => {
    전체채널
 </a>
 
+=====================================================================================
 
+constructor(props) {
+   super(props);
+   this.state = {name : "" };
+}
+ ===>  const [Name, setName] = useState("")
+ 
 ~~~
