@@ -2,7 +2,8 @@
 
 ~~~
 검색해보니까 jsdom 이라는게 있었다.
-파싱하는데에도 쓰이나 보다.
+
+JSDOM은 nodejs 환경에서 브라우저 DOM에 접근하기 위해서 사용한다고 한다.
 
 npm i jquery
 npm i jsdom
