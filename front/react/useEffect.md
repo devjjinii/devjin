@@ -13,4 +13,17 @@ useEffect 를 사용하자. 나는 페이지 진입시 api를 타는게 필요�
        // cahnnelList
        dispatch(ajaxActions.getChannelList(param))
     }, []);
+    
+
+useEffect(() => {
+    dispatch({
+        type: .....
+    })
+},[]);  // 최초 렌더링이 될때만 실행
+
+
+useEffect(() => {
+    set....(index);
+},[index]); // 해당 배열의 값이 변할때만 실행
+
 ~~~
