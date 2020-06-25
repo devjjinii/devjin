@@ -1,0 +1,11 @@
+## 실행 순서
+
+* FROM
+* ON
+* JOIN
+* WHERE
+* GROUP BY
+* HAVING
+* SELECT
+* DISTINCT
+* ORDER BY
