@@ -21,19 +21,3 @@ public class Application {
 </code>
 </pre>
 
-#### NEXUS <br>
--> maven (pom.xml)
-~~~
-    <repositories>
-		<repository>
-			<id>internal-repo</id>
-			<name>internal-nexus</name>
-			<url>http://주소:port/nexus/content/groups/public/</url>
-		</repository>
-    </repositories>
-~~~ 
-
-#### 자바8 람다(Lambda) <br>
-~~~
-1. map 중복제거: anymatch 로 수정
-~~~
