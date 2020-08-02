@@ -6,5 +6,6 @@ boolean rs = Arrays.stream( /// )
       //.map( a -> {
       // })
       .anyMatch( //// );
-      console.log(rs); // true or false 
+      //console.log(rs); // true or false
+      System.out.print(rs)
 ~~~
