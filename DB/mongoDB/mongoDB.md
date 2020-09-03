@@ -6,6 +6,7 @@ mongoDB compass 체크 해제 <br>
 <br>
 
 ~~~
+// WINDOW
 포트 : 27017 
 
 mongod.exe 서버 실행파일

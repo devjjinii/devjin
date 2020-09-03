@@ -1,6 +1,23 @@
-## SpringBootTest
+## Spring Boot Test
 
-* Gradle + springBoot + JPA  ..//(h2)
+~~~
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class TestControllerTest {
+  
+  @Autowired
+  ApplicationContext applicationContext;
+  
+  @Test
+  public void test() {
+      TestController bean = applicationContext.getBean(TestController.class);
+      assertThat(bean).isNotNull(); // ** 널이 아닐 경우 통과
+  }
+
+}  
+~~~
+
+### Gradle + springBoot + JPA  ..//(h2)
 
 ~~~
 import org.assertj.core.api.Assertions;

@@ -1,4 +1,4 @@
-## tomcat(1)
+## tomcat error
 
 ~~~
 No Spring WebApplicationInitializers types detected on classpath
