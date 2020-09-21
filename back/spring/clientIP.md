@@ -1,5 +1,12 @@
 ## client IP 를 얻기 위한 header
 
+* request.getRemoteAddr() : 클라이언트 IP를 얻어온다.
+  * 얻어온 정보는 0:0:0:0:0:0:0:1 로, 이는 IPv6 형식의 값
+  * 서버 구동 시, -Djava.net.preferIPv4Stack=true 를 주면 IPv4를 얻을 수 있다.
+    * 127.0.0.1
+
+<br><br>
+
 ~~~
 * HTTP Header 중 하나로 HTTP Server 에 요청한 clinet 의 IP 를 식별하기 위한 사실상의 표준이다.
 
