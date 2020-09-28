@@ -14,6 +14,6 @@
  // ex) 9728e52..621ff6a  master     -> upstream/master
 
 6. git merge upstream/master
-7.git push origin master
+7. git push origin master
 
 ### 코드를 수정하거나 반영하기 전에 항상 동기화 해주는 습관 필요 :white_check_mark:
