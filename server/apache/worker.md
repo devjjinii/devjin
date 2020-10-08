@@ -4,6 +4,15 @@
 
 * tomcat connector(mod_jk) 사용
   * worker.properties 설정 (Apache 루트 > conf > workers.properties 파일 생성)
+  ```
+  work.list="example, ...."
+
+  worker."example"server.port=
+  worker."example"server.host=
+  worker."example"server.type=ajp13
+  
+  .....
+  ```
   * httpd-vhosts.conf 및 httpd.conf 설정
   * Tomcat 설치 서버의 server.xml의 내용을 확인
   ```
