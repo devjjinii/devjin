@@ -1,11 +1,18 @@
 ### 배열
-~~~
-1. 배열 데이터는 대괄호로 만든다. { }
-2. 배열의 첫번째는 인덱스가 0이고, 마지막은 arr.length - 1 이다.
-.length -> "배열의 길이"를 반환하는 속성이다. 마지막 원소의 인덱스 값보다 1 큰수를 반환한다.
-배열에 속한 원소의 개수와는 의미가 다르다.
 
+* length : 배열의 길이
+  * 배열의 첫번째는 인덱스가 0이고, 마지막은 arr.length - 1. 
+  * 마지막 원소의 인덱스 값보다 1 큰수를 반환.
+* length() : 문자열의 길이
+* size() : 컬렉션프레임워크 타입의 길이
 
-.. length() -> 문자열의 길이를 알고 싶을때 사용한다.
-.. size() -> (컬렉션)타입의 길이를 알고 싶을때 사용한다.
-~~~
+```java
+int[] array = new int[5];
+System.out.println(array.length); // 5
+
+String text = "textLength";
+System.out.println(text.length()); // 10
+
+java.util.ArrayList size = new java.util.ArrayList();
+System.out.println(size.size()); // 0
+```
