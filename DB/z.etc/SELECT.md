@@ -1,0 +1,16 @@
+## SELECT 실행 순서
+
+```sql
+FROM > (ON) > (JOIN) > WHERE > GROUP BY > (ROLLUP|CUBE) > HAVING > SELECT > (DISTINCT) > ORDER BY
+```
+
+## 문법 작성 순서
+
+```sql
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+```
