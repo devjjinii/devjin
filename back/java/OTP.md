@@ -13,7 +13,8 @@
 * 생성된 QR (구글 제공) URL 로 바코드 스캔을 하면 OTP번호가 떨어지는데 , 이 번호를 (secretKey 포함) 체크하면 된다.
   * (사용자가 입력한 번호와 secretKey가 같은지 비교. >> 로직으로.. )
 * 이해하는데 시간이 좀 걸렸다.
-  * Repo를 하나 파서 코드를 정리해야겠다. (기록 중요....)
+  * Repo를 하나 파서 코드를 정리해야겠다.
+    * https://github.com/devjjinii/2fa-otp
 ---
 * 참고  
   * https://enterkey.tistory.com/221  
