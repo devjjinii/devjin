@@ -1,5 +1,6 @@
 ## data-type
-~~~
+
+~~~javascript
 console.log(typeof null)  //object
 console.log(typeof []) //object
 console.log(typeof new RegExp('/')) //object

@@ -1,6 +1,6 @@
 ## serialize & serializeArray
 
-~~~
+~~~jsp
 <form id="form">
   <input type="text" name="a" value="1" />
   <input type="text" name="b" value="2" />
@@ -8,7 +8,7 @@
 
 $("#form).serialize();
 
-==> a=1&b=2
+// a=1&b=2
 
 
 <form id="form">
@@ -18,6 +18,5 @@ $("#form).serialize();
 
 $("#form).serializeArray();
 
-==> [{name : "a", value: "1"},{name: "b", value: "2"}]
-
+// [{name : "a", value: "1"},{name: "b", value: "2"}]
 ~~~

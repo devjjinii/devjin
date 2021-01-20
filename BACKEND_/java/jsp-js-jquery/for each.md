@@ -1,6 +1,6 @@
 ## foreach
 
-~~~
+~~~javascript
 $(document).ready(function() {
    var list = new Array();
    $("input[name= ___ ]").each(function(index, item){

@@ -1,6 +1,6 @@
 ## 확인창
 
-~~~
+```javascript
                           // 클래스명
 $(document).on('click', '.class', function() {
 
@@ -23,4 +23,4 @@ $(document).on('click', '.class', function() {
         }
     });
 });
-~~~
+```
