@@ -4,6 +4,7 @@
 * EC2 인스턴스나 데이터베이스 등 많은 것들을 포함한 환경을 구성하고 소프트웨어를 업데이트 할때마다 자동으로 관리해준다.
 
 * https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/Welcome.html
+
 ~~~
 Elastic Beanstalk를 사용하면, 
 애플리케이션을 실행하는 인프라에 대한 염려 없이 AWS 클라우드에서 애플리케이션을 신속하게 배포 및 관리할 수 있습니다. 

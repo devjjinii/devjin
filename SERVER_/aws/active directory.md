@@ -11,5 +11,3 @@
 * https://docs.aws.amazon.com/ko_kr/directoryservice/latest/admin-guide/directory_ad_connector.html
 
 ---
-* 나중에 업데이트 한다.  
-
