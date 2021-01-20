@@ -1,6 +1,6 @@
 ## axios 
 
-~~~
+```javascript
  export const getABC = () => (dispatch) => {
 
     const options= {
@@ -30,18 +30,12 @@
       })
   } 
   
- console.log 가 안찍혀서 확인해보니.. 
  
  useEffect(() => {
     async function getData() {
       await dispatch(getABC())
     }
-    getData()       //*************** 여기
+    getData()       //*************** 호출
   }, []);
-  
-  
- useEffect 할때, getData() 선언만 해주고 주석부분에 getData() 추가 안해줬다.
- --> getData() 호출하니 완전 잘 찍혔다.
- 
- options 바꿔보고 진짜 1시간 뻘짓하였다.
-~~~
+
+```

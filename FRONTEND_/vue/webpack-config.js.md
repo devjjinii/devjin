@@ -1,6 +1,6 @@
 ## webpack.config.js
 
-~~~
+~~~javascript
 module.exports = {
     entry:  // 입력 파일 경로 , 번들 작업할 파일
     output: {

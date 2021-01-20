@@ -1,19 +1,17 @@
 ### study_react
 
 * node 설치, npm 버전 확인
-
-* react 프로젝트 생성 <br>
--> npm install -g create-react-app <br>
--> react-app 폴더 생성하고 <br>
--> create-react-app . 입력 <br>
--> npm run start <br>
+* react 프로젝트 생성
+    * npm install -g create-react-app
+    * react-app 폴더 생성
+    * create-react-app .
+    * npm run start
 
 * deploy
-build 시에 -> npm run build (용량을 줄여준다.) <br>
-->npm install -g serve  or  npx serve -s build 
+    * build -> npm run build (용량을 줄여준다.)
+    * npm install -g serve  or  npx serve -s build 
 
-## study
-
+---
 * class -> className
 * 컴포넌트 : redner function // render :  뭔가를 보여주는, 출력기능
 * react : UI 라이브러리,   reactDOM : 웹사이트에 redner 하는 것을 도와주는 모델
