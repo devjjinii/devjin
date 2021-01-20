@@ -1,4 +1,4 @@
-# 
+## 명령어
 
 ##### 리눅스 계정 목록 보기 <br>
 ![1](https://user-images.githubusercontent.com/53853730/65100839-2ad6fb80-da03-11e9-9727-5194b9a9b5c1.JPG)
