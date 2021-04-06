@@ -15,3 +15,12 @@
     2. check-out 으로 받지 말고
     3. import 로 repo를 땡기면 프로젝트명을 바꿀 수 있음.
 
+---
+
+## Lib 가 Build Path에 적용 안되는 경우
+* 이클립스] 프로젝트를 svn 에서 Import 했을 때 lib 디렉토리가 Build Path에 Web App Libraries로 추가 안되는 경우.
+    * 메이븐 프로젝트 아님.
+      1. 프로젝트 마우스 우클릭 -> Properties
+      2. Project Facets -> Check Dynamic Web Module & Java Version & JavaScript Version
+       3. 적용 -> 확인
+       ![import](https://user-images.githubusercontent.com/53853730/113662442-13de2400-96e3-11eb-8dcf-55c776e26ea2.PNG)
