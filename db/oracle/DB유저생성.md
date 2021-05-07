@@ -1,0 +1,10 @@
+## DB 유저 생성
+
+```sql
+CREATE USER "name" IDENTIFIED BY "pwd";
+
+SELECT * FROM DBA_USERS;
+
+GRANT CONNECT, RESOURCE, DBA TO "name";
+GRANT CREATE TABLE, CREATE VIEW TO "name";
+```
