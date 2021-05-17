@@ -14,7 +14,7 @@
   페이지가 없기 때문에 404 에러가 발생함. --> welcome-file 을 설정하면 해당페이지로 리다이렉트 시켜줌.
 
 * 세션 타임아웃
- * 디폴트 : 30분 (단위, minute) 
+  * 디폴트 : 30분 (단위, minute) 
 ```xml
 <session-config>
   <session-timeout>분</session-timeout>
